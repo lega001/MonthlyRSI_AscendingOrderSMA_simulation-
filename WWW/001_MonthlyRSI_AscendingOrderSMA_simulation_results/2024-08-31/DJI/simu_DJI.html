@@ -1,0 +1,609 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simulation Results (@2024-08-31 10:24 updated)</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+            table { width: 100%; border-collapse: collapse; margin: 20px 0; font-size: 18px; text-align: left; }
+            th, td { padding: 12px; border: 1px solid #ddd; }
+            th { background-color: #f2f2f2; position: sticky; top: 0; z-index: 1; }
+            tr:hover { background-color: #f5f5f5; }
+        </style>
+    </head>
+    <body>
+        <h2>Simulation Results (@2024-08-31 10:24 updated)</h2>
+        <table>
+            <tr>
+                <th>Ticker</th>
+                <th>Name</th>
+                <th>RSI Low Limit</th>
+                <th>RSI High Limit</th>
+                <th>연평균수익률</th>
+                <th>매매 회수</th>
+                <th>Current RSI</th>
+                <th>SMA 5</th>
+                <th>SMA 20</th>
+                <th>SMA 60</th>
+                <th>SMA 120</th>
+                <th>Current Status</th>
+                <th>장단기배열</th>
+                <th>SMA5/120 비율</th>
+                <th>매매 상세 정보</th>
+                <th>Naver Link</th>
+            </tr>
+            <tr>
+                <td><a href="VZ.html">VZ</a></td>
+                <td>버라이존 커뮤니케이션스</td>
+                <td>52</td>
+                <td>65</td>
+                <td>14.8</td>
+                <td>2</td>
+                <td>50.8</td>
+                <td>41.5</td>
+                <td>40.8</td>
+                <td>40.7</td>
+                <td>40.5</td>
+                <td>매수</td>
+                <td>정배열</td>
+                <td>2.4</td>
+                <td>2017-10-31 - 2018-12-31: 14.8%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/VZ/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="JNJ.html">JNJ</a></td>
+                <td>존슨앤드존슨</td>
+                <td>59</td>
+                <td>69</td>
+                <td>44.0</td>
+                <td>2</td>
+                <td>54.8</td>
+                <td>164.3</td>
+                <td>161.2</td>
+                <td>154.2</td>
+                <td>152.7</td>
+                <td>매수</td>
+                <td>정배열</td>
+                <td>7.6</td>
+                <td>2016-01-31 - 2016-07-31: 44.0%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/JNJ/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="AMGN.O.html">AMGN.O</a></td>
+                <td>암젠</td>
+                <td>57</td>
+                <td>65</td>
+                <td>9.2</td>
+                <td>1</td>
+                <td>65.2</td>
+                <td>329.6</td>
+                <td>325.7</td>
+                <td>321.4</td>
+                <td>303.9</td>
+                <td>매도</td>
+                <td>정배열</td>
+                <td>8.5</td>
+                <td>2022-04-30 - 2024-02-29: 9.2%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/AMGN.O/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="MMM.html">MMM</a></td>
+                <td>쓰리엠 (3M)</td>
+                <td>58</td>
+                <td>65</td>
+                <td>44.7</td>
+                <td>3</td>
+                <td>65.3</td>
+                <td>132.5</td>
+                <td>127.8</td>
+                <td>113.1</td>
+                <td>103.7</td>
+                <td>매도</td>
+                <td>정배열</td>
+                <td>27.8</td>
+                <td>2012-02-29 - 2013-03-31: 1.4%<br>2013-08-31 - 2013-12-31: 88.0%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/MMM/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="CAT.html">CAT</a></td>
+                <td>캐터필러</td>
+                <td>54</td>
+                <td>65</td>
+                <td>61.8</td>
+                <td>3</td>
+                <td>65.9</td>
+                <td>351.6</td>
+                <td>341.2</td>
+                <td>336.8</td>
+                <td>345.1</td>
+                <td>매도</td>
+                <td>상승추세</td>
+                <td>1.9</td>
+                <td>2014-01-31 - 2014-05-31: 29.5%<br>2016-05-31 - 2017-08-31: 47.1%<br>2020-08-31 - 2020-12-31: 108.9%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/CAT/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="AAPL.O.html">AAPL.O</a></td>
+                <td>애플</td>
+                <td>59</td>
+                <td>65</td>
+                <td>69.0</td>
+                <td>3</td>
+                <td>69.1</td>
+                <td>228.1</td>
+                <td>221.9</td>
+                <td>219.2</td>
+                <td>198.4</td>
+                <td>매도</td>
+                <td>정배열</td>
+                <td>14.9</td>
+                <td>2013-09-30 - 2014-06-30: 51.6%<br>2016-10-31 - 2017-03-31: 76.7%<br>2023-04-30 - 2023-07-31: 78.9%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/AAPL.O/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="IBM.html">IBM</a></td>
+                <td>인터내셔날 비지니스 머신</td>
+                <td>47</td>
+                <td>65</td>
+                <td>1.0</td>
+                <td>1</td>
+                <td>69.3</td>
+                <td>199.2</td>
+                <td>193.9</td>
+                <td>183.7</td>
+                <td>181.1</td>
+                <td>매도</td>
+                <td>정배열</td>
+                <td>10.0</td>
+                <td>2015-05-31 - 2024-02-29: 1.0%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/IBM/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="KO.html">KO</a></td>
+                <td>코카콜라</td>
+                <td>59</td>
+                <td>65</td>
+                <td>17.3</td>
+                <td>4</td>
+                <td>71.1</td>
+                <td>71.7</td>
+                <td>69.5</td>
+                <td>66.1</td>
+                <td>63.6</td>
+                <td>매도</td>
+                <td>정배열</td>
+                <td>12.7</td>
+                <td>2015-12-31 - 2018-02-28: 0.3%<br>2018-10-31 - 2018-12-31: -6.4%<br>2019-06-30 - 2019-08-31: 58.2%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/KO/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="GS.html">GS</a></td>
+                <td>골드만삭스</td>
+                <td>59</td>
+                <td>69</td>
+                <td>37.9</td>
+                <td>3</td>
+                <td>72.2</td>
+                <td>507.8</td>
+                <td>495.1</td>
+                <td>479.7</td>
+                <td>453.2</td>
+                <td>매도</td>
+                <td>정배열</td>
+                <td>12.1</td>
+                <td>2012-03-31 - 2018-02-28: 13.5%<br>2019-05-31 - 2021-03-31: 37.4%<br>2024-01-31 - 2024-08-31: 62.8%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/GS/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="AXP.html">AXP</a></td>
+                <td>아메리칸 익스프레스</td>
+                <td>59</td>
+                <td>65</td>
+                <td>73.4</td>
+                <td>4</td>
+                <td>73.0</td>
+                <td>256.9</td>
+                <td>245.8</td>
+                <td>240.0</td>
+                <td>235.3</td>
+                <td>매도</td>
+                <td>정배열</td>
+                <td>9.2</td>
+                <td>2012-02-29 - 2012-04-30: 117.3%<br>2016-06-30 - 2017-10-31: 40.3%<br>2020-09-30 - 2021-04-30: 108.0%<br>2023-02-28 - 2024-03-31: 28.1%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/AXP/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="JPM.html">JPM</a></td>
+                <td>제이피모간체이스</td>
+                <td>55</td>
+                <td>65</td>
+                <td>80.6</td>
+                <td>4</td>
+                <td>74.1</td>
+                <td>221.5</td>
+                <td>212.1</td>
+                <td>206.9</td>
+                <td>200.9</td>
+                <td>매도</td>
+                <td>정배열</td>
+                <td>10.3</td>
+                <td>2012-02-29 - 2013-06-30: 24.9%<br>2016-08-31 - 2016-12-31: 108.6%<br>2020-09-30 - 2021-03-31: 150.9%<br>2022-12-31 - 2024-03-31: 37.9%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/JPM/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="WMT.html">WMT</a></td>
+                <td>월마트</td>
+                <td>58</td>
+                <td>69</td>
+                <td>20.7</td>
+                <td>3</td>
+                <td>81.4</td>
+                <td>76.4</td>
+                <td>72.3</td>
+                <td>69.9</td>
+                <td>65.6</td>
+                <td>매도</td>
+                <td>정배열</td>
+                <td>16.3</td>
+                <td>2013-12-31 - 2017-12-31: 5.8%<br>2019-02-28 - 2019-09-30: 36.3%<br>2022-11-30 - 2024-06-30: 19.9%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/WMT/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="INTC.O.html">INTC.O</a></td>
+                <td>인텔</td>
+                <td>59</td>
+                <td>65</td>
+                <td>25.8</td>
+                <td>3</td>
+                <td>34.0</td>
+                <td>20.4</td>
+                <td>20.3</td>
+                <td>27.8</td>
+                <td>31.7</td>
+                <td>보유</td>
+                <td>하락추세</td>
+                <td>-35.6</td>
+                <td>2013-04-30 - 2014-07-31: 32.0%<br>2016-08-31 - 2017-11-30: 19.5%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/INTC.O/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="NKE.html">NKE</a></td>
+                <td>나이키</td>
+                <td>59</td>
+                <td>68</td>
+                <td>41.1</td>
+                <td>4</td>
+                <td>40.1</td>
+                <td>83.8</td>
+                <td>80.0</td>
+                <td>81.1</td>
+                <td>87.4</td>
+                <td>보유</td>
+                <td>하락추세</td>
+                <td>-4.1</td>
+                <td>2011-10-31 - 2012-02-29: 40.8%<br>2013-01-31 - 2013-05-31: 49.2%<br>2017-03-31 - 2018-06-30: 33.2%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/NKE/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="DIS.html">DIS</a></td>
+                <td>월트 디즈니</td>
+                <td>56</td>
+                <td>66</td>
+                <td>108.6</td>
+                <td>3</td>
+                <td>43.0</td>
+                <td>90.5</td>
+                <td>88.8</td>
+                <td>94.6</td>
+                <td>102.9</td>
+                <td>보유</td>
+                <td>하락추세</td>
+                <td>-12.1</td>
+                <td>2012-01-31 - 2012-06-30: 70.5%<br>2020-09-30 - 2021-01-31: 146.7%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/DIS/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="BA.html">BA</a></td>
+                <td>보잉</td>
+                <td>56</td>
+                <td>65</td>
+                <td>56.6</td>
+                <td>3</td>
+                <td>44.9</td>
+                <td>172.6</td>
+                <td>171.3</td>
+                <td>178.8</td>
+                <td>178.9</td>
+                <td>보유</td>
+                <td>하락추세</td>
+                <td>-3.5</td>
+                <td>2012-01-31 - 2013-04-30: 18.3%<br>2016-08-31 - 2017-02-28: 95.0%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/BA/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="CVX.html">CVX</a></td>
+                <td>셰브론</td>
+                <td>54</td>
+                <td>65</td>
+                <td>27.7</td>
+                <td>3</td>
+                <td>47.8</td>
+                <td>147.4</td>
+                <td>145.7</td>
+                <td>152.7</td>
+                <td>156.1</td>
+                <td>보유</td>
+                <td>하락추세</td>
+                <td>-5.6</td>
+                <td>2016-05-31 - 2018-01-31: 13.8%<br>2021-03-31 - 2022-02-28: 41.6%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/CVX/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="DOW.html">DOW</a></td>
+                <td>다우</td>
+                <td>50</td>
+                <td>65</td>
+                <td>63.5</td>
+                <td>2</td>
+                <td>48.8</td>
+                <td>53.8</td>
+                <td>53.0</td>
+                <td>53.6</td>
+                <td>55.7</td>
+                <td>보유</td>
+                <td>하락추세</td>
+                <td>-3.5</td>
+                <td>2020-08-31 - 2021-04-30: 63.5%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/DOW/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="CSCO.O.html">CSCO.O</a></td>
+                <td>시스코 시스템즈</td>
+                <td>51</td>
+                <td>65</td>
+                <td>30.0</td>
+                <td>3</td>
+                <td>51.9</td>
+                <td>50.5</td>
+                <td>48.2</td>
+                <td>47.3</td>
+                <td>47.8</td>
+                <td>보유</td>
+                <td>상승추세</td>
+                <td>5.6</td>
+                <td>2011-11-30 - 2013-07-31: 20.9%<br>2021-02-28 - 2021-09-30: 39.1%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/CSCO.O/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="HON.O.html">HON.O</a></td>
+                <td>허니웰 인터내셔널</td>
+                <td>51</td>
+                <td>65</td>
+                <td>0</td>
+                <td>1</td>
+                <td>52.6</td>
+                <td>206.1</td>
+                <td>200.8</td>
+                <td>208.0</td>
+                <td>203.4</td>
+                <td>보유</td>
+                <td>상승추세</td>
+                <td>1.3</td>
+                <td>NA</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/HON.O/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="HD.html">HD</a></td>
+                <td>홈디포</td>
+                <td>57</td>
+                <td>65</td>
+                <td>0</td>
+                <td>1</td>
+                <td>58.7</td>
+                <td>371.1</td>
+                <td>360.7</td>
+                <td>353.4</td>
+                <td>351.3</td>
+                <td>보유</td>
+                <td>정배열</td>
+                <td>5.6</td>
+                <td>NA</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/HD/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="PG.html">PG</a></td>
+                <td>프록터 & 갬블</td>
+                <td>55</td>
+                <td>65</td>
+                <td>8.5</td>
+                <td>2</td>
+                <td>62.8</td>
+                <td>170.0</td>
+                <td>169.2</td>
+                <td>167.5</td>
+                <td>164.8</td>
+                <td>보유</td>
+                <td>정배열</td>
+                <td>3.2</td>
+                <td>2016-01-31 - 2019-04-30: 8.5%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/PG/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="CRM.html">CRM</a></td>
+                <td>세일즈포스</td>
+                <td>59</td>
+                <td>67</td>
+                <td>49.8</td>
+                <td>2</td>
+                <td>54.2</td>
+                <td>259.7</td>
+                <td>255.8</td>
+                <td>251.2</td>
+                <td>266.9</td>
+                <td>비보유</td>
+                <td>하락추세</td>
+                <td>-2.7</td>
+                <td>2017-03-31 - 2017-11-30: 42.1%<br>2023-04-30 - 2024-03-31: 57.5%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/CRM/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="MRK.html">MRK</a></td>
+                <td>머크 앤 코</td>
+                <td>54</td>
+                <td>65</td>
+                <td>36.9</td>
+                <td>2</td>
+                <td>56.7</td>
+                <td>117.2</td>
+                <td>114.9</td>
+                <td>122.7</td>
+                <td>125.1</td>
+                <td>비보유</td>
+                <td>하락추세</td>
+                <td>-6.3</td>
+                <td>2016-05-31 - 2018-10-31: 11.8%<br>2022-02-28 - 2022-11-30: 62.0%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/MRK/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="MCD.html">MCD</a></td>
+                <td>맥도날드</td>
+                <td>55</td>
+                <td>68</td>
+                <td>24.9</td>
+                <td>2</td>
+                <td>56.9</td>
+                <td>288.4</td>
+                <td>279.7</td>
+                <td>263.9</td>
+                <td>267.7</td>
+                <td>비보유</td>
+                <td>상승추세</td>
+                <td>7.7</td>
+                <td>2015-04-30 - 2015-12-31: 35.1%<br>2020-08-31 - 2022-01-31: 14.7%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/MCD/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="AMZN.O.html">AMZN.O</a></td>
+                <td>아마존닷컴</td>
+                <td>44</td>
+                <td>65</td>
+                <td>79.2</td>
+                <td>1</td>
+                <td>61.6</td>
+                <td>174.0</td>
+                <td>172.0</td>
+                <td>182.9</td>
+                <td>182.2</td>
+                <td>비보유</td>
+                <td>하락추세</td>
+                <td>-4.5</td>
+                <td>2023-04-30 - 2024-03-31: 79.2%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/AMZN.O/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="V.html">V</a></td>
+                <td>비자</td>
+                <td>57</td>
+                <td>65</td>
+                <td>24.5</td>
+                <td>1</td>
+                <td>61.8</td>
+                <td>271.8</td>
+                <td>265.2</td>
+                <td>267.2</td>
+                <td>271.9</td>
+                <td>비보유</td>
+                <td>하락추세</td>
+                <td>-0.0</td>
+                <td>2023-02-28 - 2024-03-31: 24.5%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/V/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="MSFT.O.html">MSFT.O</a></td>
+                <td>마이크로소프트</td>
+                <td>59</td>
+                <td>65</td>
+                <td>92.7</td>
+                <td>2</td>
+                <td>64.4</td>
+                <td>413.6</td>
+                <td>412.5</td>
+                <td>432.5</td>
+                <td>424.7</td>
+                <td>비보유</td>
+                <td>하락추세</td>
+                <td>-2.6</td>
+                <td>2011-11-30 - 2012-03-31: 100.3%<br>2023-04-30 - 2023-06-30: 85.1%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/MSFT.O/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="TRV.html">TRV</a></td>
+                <td>트래블러스 컴퍼니스</td>
+                <td>58</td>
+                <td>67</td>
+                <td>20.6</td>
+                <td>2</td>
+                <td>64.5</td>
+                <td>225.0</td>
+                <td>216.8</td>
+                <td>212.0</td>
+                <td>215.3</td>
+                <td>비보유</td>
+                <td>상승추세</td>
+                <td>4.5</td>
+                <td>2012-01-31 - 2012-10-31: 29.9%<br>2018-12-31 - 2022-04-30: 11.3%</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/TRV/total">[mobile]</a></td>
+            </tr>
+            <tr>
+                <td><a href="">UNH</a></td>
+                <td>유나이티드헬스 그룹</td>
+                <td>NA</td>
+                <td>NA</td>
+                <td>NA</td>
+                <td>0</td>
+                <td>NA</td>
+                <td>NA</td>
+                <td>NA</td>
+                <td>NA</td>
+                <td>NA</td>
+                <td>NA</td>
+                <td>NA</td>
+                <td>NA</td>
+                <td>NA</td>
+                <td>
+                <a href="https://m.stock.naver.com/worldstock/stock/UNH/total">[mobile]</a></td>
+            </tr>
+        </table>
+    </body>
+    </html>
